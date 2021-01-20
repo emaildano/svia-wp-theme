@@ -1,0 +1,40 @@
+/* 
+Theme Name: Stable Value
+Theme URI: https://github.com/digitalcube/galaxy-wp-theme/
+Description: Stable Value is a child theme of Hello Elementor
+Author: Daniel Olson
+Author URI: https://www.github.com/emaildano/
+Template: hello-elementor
+Version: 0.0.0
+Text Domain: svia
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+.ais-HierarchicalMenu-link {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 0.25rem;
+}
+
+.ais-SearchBox-submit {
+  width: 5%;
+}
+
+input.ais-SearchBox-input {
+  padding-left: 7%;
+}
+
+.ais-Hits-item,
+.ais-InfiniteHits-item,
+.ais-InfiniteResults-item,
+.ais-Results-item {
+  width: 100%;
+}
+
+.ais-hits--title-link {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 125%;
+}
