@@ -20,7 +20,7 @@ function svia_enqueue_scripts()
 		'0.0.0'
 	);
 
-	wp_enqueue_style('normalize-css', 'https://cdn.jsdelivr.net/npm/normalize.css@latest/normalize.css', [], 'latest', true);
+	wp_enqueue_style('normalize-css', 'https://cdn.jsdelivr.net/npm/normalize.css@latest/normalize.css', [], 'latest');
 	wp_enqueue_script('svia-wp-theme-scripts', get_theme_file_uri() . '/main.js', array('algolia-cdn-instantsearch'), '0.0.0', true);
 }
 
