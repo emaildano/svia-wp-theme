@@ -32,6 +32,8 @@ input.ais-SearchBox-input {
 .ais-Results-item {
   width: 100%;
   padding: 0;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .ais-hits--title-link {

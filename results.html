@@ -1,0 +1,39 @@
+<script type="text/html" id="tmpl-instantsearch-hit">
+  <article itemtype="http://schema.org/Article">
+    <div class="d-flex">
+      <div class="ais-hits--meta">
+        <div>
+          <div><b>Type:</b></div>
+          {{ data.taxonomies_hierarchical.category.lvl0.value }}
+        </div>
+        <div>
+          <div><b>Date:</b></div>
+          {{data.post_date_formatted}}
+        </div>
+      </div>
+      <div class="ais-hits--content">
+        <div>
+          <h2 itemprop="name headline" class="mt-0 font-weight-bold">
+            <a
+              href="{{ data.permalink }}"
+              title="{{ data.post_title }}"
+              class="ais-hits--title-link"
+              itemprop="url"
+              >{{{ data._highlightResult.post_title.value }}}</a
+            >
+          </h2>
+          <div class="excerpt">
+            <p>
+              <# if ( data._snippetResult["content"] ) { #>
+              <span class="suggestion-post-content ais-hits--content-snippet"
+                >{{{ data._snippetResult["content"].value }}}</span
+              >
+              <# } #>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ais-clearfix"></div>
+  </article>
+</script>
