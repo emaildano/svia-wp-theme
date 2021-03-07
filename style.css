@@ -12,94 +12,28 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 */
 
+.ais-SearchBox-input {
+  padding: 0.5rem 2.5rem !important;
+}
+
+.ais-SearchBox-form {
+  background-color: transparent !important;
+}
+
+.ais-Hits-item > article {
+  display: flex;
+}
+
 .ais-HierarchicalMenu-link {
-  justify-content: space-between;
-  display: flex;
-  margin-bottom: 0.25rem;
+  border-radius: 0 !important;
 }
 
-.ais-SearchBox-submit {
-  width: 5%;
+.ais-SearchBox-reset {
+  background-color: transparent !important;
 }
 
-input.ais-SearchBox-input {
-  padding-left: 7%;
-}
-
-.ais-Hits-item,
-.ais-InfiniteHits-item,
-.ais-InfiniteResults-item,
-.ais-Results-item {
-  width: 100%;
-  padding: 0;
-  margin-top: 0;
-  margin-left: 0;
-}
-
-.ais-hits--title-link {
-  font-weight: bold;
-  font-size: 1.5rem;
-  line-height: 125%;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.mt-0 {
-  margin-top: 0;
-}
-
-.ais-hits--content {
-  display: flex;
-  flex: 4;
-}
-
-.ais-hits--meta,
-.ais-hits--content {
-  padding: 1rem;
-}
-
-.ais-Hits-list {
-  border-bottom: 1px solid var(--e-global-color-secondary);
-}
-
-.ais-Panel-body .ais-Hits-item,
-.ais-Panel-body .ais-InfiniteHits-item,
-.ais-Panel-body .ais-InfiniteResults-item,
-.ais-Panel-body .ais-Results-item {
-  border: 1px solid var(--e-global-color-secondary);
-  border-bottom: none;
-  margin: 0;
-}
-
-.ais-Panel-body .ais-Hits-list,
-.ais-Panel-body .ais-InfiniteHits-list,
-.ais-Panel-body .ais-InfiniteResults-list,
-.ais-Panel-body .ais-Results-list {
-  margin: 0;
-}
-
-.ais-hits--meta {
-  font-size: 0.875rem;
-  width: 20%;
-  border-right: 1px solid var(--e-global-color-secondary);
-}
-
-.ais-hits--content .excerpt {
-  font-size: 0.875rem;
-  line-height: 150%;
-}
-
-.ais-HierarchicalMenu-count {
-  font-family: monospace;
-  font-weight: bold;
-  background-color: white;
-}
-
-.ais-Pagination-item--selected .ais-Pagination-link {
-  background-color: var(--e-global-color-secondary);
-  border-color: var(--e-global-color-secondary);
+.ais-HierarchicalMenu-item--selected a {
+  background-color: var(--e-global-color-secondary) !important;
 }
 
 mark {
