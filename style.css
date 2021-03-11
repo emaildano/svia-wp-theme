@@ -327,7 +327,6 @@ a[class^="ais-"] {
   margin-bottom: 1rem;
 }
 
-.ais-Breadcrumb-item--selected a:hover,
 .ais-HierarchicalMenu-item--selected a:hover,
 .ais-Menu-item--selected a:hover {
   background-color: rgb(0, 55, 77) !important;
@@ -350,8 +349,7 @@ a[class^="ais-"] {
   justify-content: space-between;
   flex-direction: row;
 }
-.ais-Breadcrumb-link:hover,
-.ais-Breadcrumb-link:focus,
+
 .ais-HierarchicalMenu-link:hover,
 .ais-HierarchicalMenu-link:focus,
 .ais-Menu-link:hover,
@@ -361,6 +359,11 @@ a[class^="ais-"] {
 .ais-RatingMenu-link:hover,
 .ais-RatingMenu-link:focus {
   color: #eee !important;
+}
+
+.ais-Breadcrumb-link a:hover {
+  color: var(--e-global-color-secondary) im !important;
+  background-color: transparent;
 }
 
 .ais-ClearRefinements-button,
@@ -591,7 +594,7 @@ a[class^="ais-"] {
   color: var(--e-global-color-primary);
   background-color: #fff !important;
   border-radius: 4px;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 .ais-HierarchicalMenu-showMore,
@@ -890,7 +893,7 @@ a[class^="ais-"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: .75rem 2rem !important;
+  padding: 0.75rem 2rem !important;
   width: 100%;
   position: relative;
   background-color: #fff;
@@ -998,5 +1001,5 @@ a[class^="ais-"] {
 
 .ais-hits--title-link {
   font-weight: 700 !important;
-  font-size: 26px;
+  font-size: 20px;
 }
