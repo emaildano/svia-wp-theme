@@ -755,14 +755,14 @@ a[class^="ais-"] {
 .ais-Pagination-link {
   padding: 0.3rem 0.6rem;
   display: block;
-  border: 1px solid #c4c8d8;
+  border: 1px solid var(--e-global-color-secondary);
   border-radius: 5px;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
 .ais-Pagination-link:hover,
 .ais-Pagination-link:focus {
-  background-color: #e3e5ec !important;
+  background-color: var(--e-global-color-secondary) !important;
 }
 .ais-Pagination-item--disabled .ais-Pagination-link {
   opacity: 0.6;
