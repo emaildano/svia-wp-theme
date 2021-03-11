@@ -609,8 +609,8 @@ a[class^="ais-"] {
 .ais-InfiniteResults-list,
 .ais-Hits-list,
 .ais-Results-list {
-  margin-top: -1rem;
-  margin-left: -1rem;
+  /* margin-top: -1rem; */
+  /* margin-left: -1rem; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -890,11 +890,11 @@ a[class^="ais-"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 0.3rem 1.7rem;
+  padding: .75rem 2rem !important;
   width: 100%;
   position: relative;
   background-color: #fff;
-  border: 1px solid #c4c8d8;
+  border: 1px solid var(--e-global-color-primary);
   border-radius: 5px;
 }
 .ais-SearchBox-input::-webkit-input-placeholder {
