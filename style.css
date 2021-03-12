@@ -760,6 +760,7 @@ a[class^="ais-"] {
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
+
 .ais-Pagination-link:hover,
 .ais-Pagination-link:focus {
   background-color: var(--e-global-color-secondary) !important;
@@ -1002,4 +1003,8 @@ a[class^="ais-"] {
 .ais-hits--title-link {
   font-weight: 700 !important;
   font-size: 20px;
+}
+
+#algolia-object {
+  display: block !important;
 }
