@@ -47,8 +47,12 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
 /* Magic */
 
-#magic-sign-in form > * {
+.magic-sign-in form > * {
   margin-bottom: 1rem;
+}
+
+[type=button], [type=submit], button {
+  border-color: var(--e-global-color-accent) !important;
 }
 
 /* Algolia */
