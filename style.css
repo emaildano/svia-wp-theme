@@ -51,7 +51,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   margin-bottom: 1rem;
 }
 
-[type=button], [type=submit], button {
+[type="button"],
+[type="submit"],
+button {
   border-color: var(--e-global-color-accent) !important;
 }
 
@@ -702,6 +704,17 @@ a[class^="ais-"] {
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid #c4c8d8;
+}
+
+.ais-Breadcrumb-link,
+.ais-Breadcrumb-item {
+  font-weight: bold !important;
+  font-size: 0.8rem !important;
+}
+
+.ais-Breadcrumb {
+  border-bottom: 1px solid #c4c8d8;
+  text-transform: uppercase;
 }
 
 .ais-Panel-footer {
