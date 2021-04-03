@@ -51,6 +51,10 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   margin-bottom: 1rem;
 }
 
+#magic-user-profile {
+  margin-bottom: 1rem;
+}
+
 [type="button"],
 [type="submit"],
 button {
@@ -1025,3 +1029,4 @@ a[class^="ais-"] {
 #algolia-object {
   display: block !important;
 }
+
