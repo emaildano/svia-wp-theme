@@ -1024,3 +1024,7 @@ a[class^="ais-"] {
 #algolia-object {
   display: block !important;
 }
+
+.user-description {
+  white-space: pre-wrap;
+}
