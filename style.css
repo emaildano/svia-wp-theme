@@ -29,12 +29,12 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 [type="button"],
 [type="submit"],
 button,
-.wp-block-file .wp-block-file__button {
-  border-color: var(--e-global-color-accent) !important;
+.wp-block-file a.wp-block-file__button,
+a.wp-block-button__link {
+  border-color: var(--e-global-color-accent);
   font-size: var(--e-global-typography-ecc444a-font-size);
   line-height: var(--e-global-typography-ecc444a-line-height);
   letter-spacing: var(--e-global-typography-ecc444a-letter-spacing);
-  fill: #ffffff;
   color: #ffffff;
   background-color: var(--e-global-color-accent);
   font-family: var(--e-global-typography-accent-font-family), Sans-serif;
@@ -44,6 +44,16 @@ button,
   transition: all 0.3s;
   text-align: center;
   display: inline-block;
+}
+
+[type="button"]:hover,
+[type="submit"]:hover,
+button:hover,
+.wp-block-file a.wp-block-file__button:hover,
+a.wp-block-button__link:hover {
+  border-color: var(--e-global-color-secondary) !important;
+  background-color: var(--e-global-color-secondary);
+  color: #ffffff;
 }
 
 /* Algolia */
